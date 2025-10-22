@@ -1,0 +1,89 @@
+git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes
+./UTN-FRA_SO_Examenes/script_Precondicion.sh
+source ~/.bashrc
+git clone https://github.com/wmartina2007-ctrl/Recu_TP_AySO.git
+./UTN-FRA_SO_Examenes/script_Precondicion.sh
+source ~/.bashrc
+touch Punto_A.sh
+cd ~/Punto_A.sh
+mkdir Punto_A.sh
+mkdir Punto_A.sh Punto_B.sh Punto_C.sh Punto_D.sh Punto_E.sh Punto_F.sh Punto_G.sh
+mkdir -p Punto_A.sh
+ls
+cd ~Punto_B.sh
+git clone https://github.com/sofiasartori/UTN-FRA_SO_Examenes
+./UTN-FRA_SO_Examenes/script_Precondicion.sh
+source ~/.bashrc
+git clone https://github.com/wmartina2007-ctrl/Recu_TP_AySO.git
+#!/bin/bash
+mkdir Punto_A Punto_B Punto_C Punto_D Punto_E Punto_F Punto_G
+ls
+cd ~/Punto_A
+cd ~Punto_A
+git add
+git add .
+cd ~/Punto_A
+cd ~
+cd ~/Punto_A
+ls
+cd ~/Documents/GitHub/Recu_TP_AySO
+mkdir Punto_A
+cd ~\Documents\GitHub\Recu_TP_AySO\Punto_A
+cd ~C:\Users\Usuario.DESKTOP-LNA8QCU\Documents\GitHub\Recu_TP_AySO\Punto_A
+cd ~/Documents/GitHub/Recu_TP_AySO/Punto_A
+#!/bin/bash
+git add .
+cd ./
+sudo
+echo
+cd ~/Documents/GitHub/Recu_TP_AySO
+ls -l
+rmdir Punto_A Punto_B Punto_C Punto_D Punto_E Punto_F Punto_G
+ls
+rmdir Punto_A.sh
+nano Punto_A.sh
+gir add .
+git add .
+nano Punto_B.sh
+nano Punto_C.sh
+git add . 
+nano Punto_C.sh
+git add .
+nano Punto_D.sh
+git add .
+nano Punto_E.sh
+git add .
+nano Punto_F.sh
+git add .
+HOME/.bash_history
+$HOME/.bash_history
+ls
+.bash_history
+[200~history -a
+cp /.bash_history ./Historial_comandos_Apellido.txt
+git add .
+git commit -m "ADD: Historial de comandos de Apellido"
+git push
+cd~ /Documents/GitHub/Recu_TP_AySO
+ls
+#!/bin/bash
+mkdir -p ~/Punto_F
+FILE=~/Punto_F/Filtro_Avanzando.txt
+IP_PUBLICA=$(curl -s ifconfig.me)
+MODELO=$(grep "model name" /proc/cpuinfo | head -n 1 | cut -d: -f2 | xargs)
+FREQ_MHZ=$(grep "cpu MHz" /proc/cpuinfo | head -n 1 | cut -d: -f2 | xargas)
+FREQ_GHZ=$(echo "scale=2, $FREQ_MHZ / 1000" | bc >2/dev/null)
+echo "Mi ip publica es: $IP_PUBLICA" > "$FILE"
+echo "CPU Modelo: $MODELO Frecuencia: $FREQ_GHZ GHz" >> "$FILE"
+#!/bin/bash
+mkdir -p ~/Punto_E
+FILE=~/Punto_E/Filtro_basico.txt
+grep "MemTotal :" /proc/meminfo | awk '{print "Memoria Total: " $2 " " $3}' > "$FILE"
+MODELO=$(grep "model name" /proc/cpuinfo | head -n 1 | cut -d: -f2 | xargs)
+FREQ_MHZ=$(grep "cpu MHZ" /proc/cpuinfo | head -n 1 | cut -d: -f2 | xargas)
+FREQ_GHZ=$(echo "scale=2; $FREQ_MHZ / 1000" | bc 2>/dev/null)
+echo "Modelo Microprocesador: $MODELO" >> "$FILE"
+echo "Frecuencia: $FREQ_GHZ GHz" >> "$FILE"
+history -a
+.bash_history
+history -a
